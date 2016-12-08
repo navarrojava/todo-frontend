@@ -1,7 +1,7 @@
 /* eslint-env browser */
+import {AppRouter} from "./router/AppRouter.jsx";
 import React from "react";
 import ReactDOM from "react-dom";
-import {AppRouter} from "./router/AppRouter.jsx";
 import "../www/index.html";
 import "../www/favicon.ico";
 

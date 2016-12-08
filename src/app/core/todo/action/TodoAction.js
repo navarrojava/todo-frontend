@@ -1,10 +1,8 @@
-import  {AppDispatcher}  from "../../../dispatcher/AppDispatcher";
 import { AppConstants } from "../../../constants/AppConstants";
-
+import  {AppDispatcher}  from "../../../dispatcher/AppDispatcher";
 import {todoClient} from "../client/TodoClient";
+
 export class TodoAction {
-
-
     /**
      *
      * @param {Object} todo

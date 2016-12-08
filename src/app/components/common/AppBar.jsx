@@ -1,10 +1,8 @@
 import React from "react";
-import {Link} from "react-router";
-import FabButton from "./FabButton";
 import {AppConstants} from "../../constants/AppConstants";
 
 
-/*global componentHandler, alert, console*/
+/*global console*/
 export class AppBar extends React.Component {
 
     constructor() {

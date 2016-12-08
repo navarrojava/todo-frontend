@@ -1,17 +1,12 @@
+import {AppBar} from "../common/AppBar";
+import {AppConstants} from "../../constants/AppConstants";
+import autoBind from "react-autobind";
+import FabButton from "../common/FabButton";
 import React from "react";
+import Snackbar from "material-ui/Snackbar";
+import {TodoAction} from "../../core/todo/action/TodoAction";
 import TodoList from "./TodoListView";
 import {todoStore} from "../../core/todo/store/TodoStore";
-import autoBind from "react-autobind";
-
-import Snackbar from "material-ui/Snackbar";
-
-
-import {AppBar} from "../common/AppBar";
-
-import {AppConstants} from "../../constants/AppConstants";
-
-import {TodoAction} from "../../core/todo/action/TodoAction";
-import FabButton from "../common/FabButton";
 
 /*global console */
 export class TodoMainView extends React.Component {

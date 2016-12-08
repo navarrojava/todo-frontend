@@ -1,13 +1,9 @@
 import React from "react";
 
 import {List, ListItem} from "material-ui/List";
-import Divider from "material-ui/Divider";
 import Checkbox from "material-ui/Checkbox";
-import Toggle from "material-ui/Toggle";
 import ActionDoneAll from "material-ui/svg-icons/action/done-all";
 import ActionDone from "material-ui/svg-icons/action/done";
-
-import {Link} from "react-router";
 
 /*global console*/
 const TodoList = ({todoList = [],router, handleTouchTap}) => {
@@ -46,7 +42,7 @@ const TodoList = ({todoList = [],router, handleTouchTap}) => {
             </List> :
             <div
                 style={{fontSize: 18, textAlign: "center", marginRight: "auto", marginLeft: "auto", marginTop: "20px"}}>
-                {"Você nào possui tarefas : ) "}
+            {"Você nao possui tarefas : ) "}
                 <br/>
                 {"Clique no botão para adicionar uma nova tarefa, caso queira."}
             </div>

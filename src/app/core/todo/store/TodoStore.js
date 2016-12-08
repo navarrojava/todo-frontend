@@ -1,6 +1,6 @@
+import autoBind from "react-autobind";
 import {AppConstants} from "../../../constants/AppConstants";
 import {AppDispatcher} from "../../../dispatcher/AppDispatcher";
-import autoBind from "react-autobind";
 import {EventEmitter} from "events";
 import Immutable from "immutable";
 import _ from "lodash";

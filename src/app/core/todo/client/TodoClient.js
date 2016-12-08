@@ -1,5 +1,5 @@
-import fetch from "isomorphic-fetch";
 import autoBind from "react-autobind";
+import fetch from "isomorphic-fetch";
 
 
 const BASE_URL = "@@urlEndpointTodoDefault/api/todo";

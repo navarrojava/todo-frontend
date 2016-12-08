@@ -1,26 +1,14 @@
-import React from "react";
-import TodoList from "./TodoListView";
-import {todoStore} from "../../core/todo/store/TodoStore";
+import {AppBar} from "../common/AppBar";
+import {AppConstants} from "../../constants/AppConstants";
 import autoBind from "react-autobind";
-
-import TextField from "material-ui/TextField";
+import React from "react";
 import RaisedButton from "material-ui/RaisedButton";
+import TextField from "material-ui/TextField";
+import {TodoAction} from "../../core/todo/action/TodoAction";
+import {todoStore} from "../../core/todo/store/TodoStore";
 import update from "react-addons-update";
 
-import {TodoAction} from "../../core/todo/action/TodoAction";
-
-import {AppBar} from "../common/AppBar";
-import ContentSave from "material-ui/svg-icons/content/save";
-
-
-import {AppConstants} from "../../constants/AppConstants";
-
-
-import FabButton from "../common/FabButton";
-
-
 /*global console */
-
 export class TodoEditView extends React.Component {
 
     constructor(props) {
@@ -123,7 +111,7 @@ export class TodoEditView extends React.Component {
                             floatingLabelText="Titulo"
                             fullWidth={true}
                             defaultValue={this.state.todo.title !== undefined ? this.state.todo.title:""}
-                            hintText="Difite um titulo para sua tarefa"
+                            hintText="Digite um titulo para sua tarefa"
                             ref={(titleInput) => this.a = titleInput}
                         />
                         <TextField
