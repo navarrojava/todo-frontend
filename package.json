@@ -1,0 +1,50 @@
+{
+  "name": "Todo_frontend_React",
+  "version": "1.0.0",
+  "description": "Projeto de apresentação.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "webpack --colors && webpack-dev-server --colors --inline --hot",
+    "build": "webpack --env=prod --colors"
+  },
+  "author": "Navarro Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^1.1.1",
+    "flux": "^2.1.1",
+    "immutable": "^3.8.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.2",
+    "material-design-icons": "^2.2.3",
+    "material-design-lite": "^1.1.3",
+    "material-ui": "^0.16.4",
+    "materialize-css": "^0.97.6",
+    "react": "^15.2.1",
+    "react-addons-update": "^15.4.1",
+    "react-autobind": "^1.0.6",
+    "react-dom": "^15.2.1",
+    "react-router": "^2.5.2",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "console-stamp": "^0.2.2",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.0.1",
+    "eslint-loader": "^1.4.1",
+    "eslint-plugin-react": "^5.2.2",
+    "file-loader": "^0.9.0",
+    "string-replace-loader": "^1.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

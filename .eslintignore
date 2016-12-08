@@ -1,0 +1,5 @@
+**/__tests__/
+gulp/**
+gulpfile.js
+webpack.*.js
+Gruntfile.js
