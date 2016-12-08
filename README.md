@@ -14,3 +14,5 @@
 1. Executar `npm start-dev` na raiz do projeto, para rodar em modo dev, com  atualização em tempo real (hot deploy).
 
 1. Executar `npm build` na raiz do projeto, para empacotar o projeto com otimizações de build.
+
+1. Por padrão o dev-server (hot deploy) roda na porta 8084, para alterar vá até o arquivo `webpack.config` vá em devServer e altere o atributo port`
